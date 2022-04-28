@@ -1,0 +1,131 @@
+body{
+    background-color:rgb(202, 187, 160) ;
+}
+
+/* Formulário */
+#formContainer{
+    background-color: whitesmoke;
+    border-radius: 20px;
+    box-shadow: .5px 10px 15px rgba(0, 0, 0, .4);
+    margin: 27px auto;
+    padding: 25px;
+}
+
+@media(min-width:768px){
+    #formContainer{
+        margin: 40px auto;
+        padding: 50px;
+    }
+
+    .btn.btn-primary{
+        width: auto;
+    }
+}
+
+#formContainer h2{
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+#formContainer a{
+    color: #222;
+    transition: .5s;
+}
+
+#formContainer a:hover{
+    color:aqua;
+}
+
+#formContainer form{
+    padding-bottom: 120px;
+}
+
+#formContainer .form-control{
+    border: none;
+    border-bottom: 2px solid #ccc;
+}
+
+#formContainer .form-control:focus{
+    box-shadow: none;
+}
+
+#formContainer input[type="submit"]{
+    background-color: aqua;
+    border-color: aqua;
+    color: #222;
+}
+
+.btn.btn-primary{
+    width: 100%;
+}
+
+/* Imagem */
+
+#linkContainer{
+    text-align: center;
+    padding-top: 10px;
+}
+
+
+/* Registro */
+#formContainerRegistro{
+    background-color: whitesmoke;
+    border-radius: 20px;
+    box-shadow: .5px 10px 15px rgba(0, 0, 0, .4);
+    margin: 27px auto;
+    padding: 25px;
+}
+
+@media(min-width:768px){
+    #formContainerRegistro{
+        margin: 40px auto;
+        padding: 50px;
+    }
+    
+    #linkContainerRegistro a{
+        font-size: 1em;
+    }
+    .btn.btn-primary{
+        width: auto;
+    }
+}
+
+#formContainerRegistro h2{
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+#formContainerRegistro a{
+    color: #222;
+    transition: .5s;
+}
+
+#formContainerRegistro a:hover{
+    color:aqua;
+}
+
+#formContainerRegistro form{
+    padding-bottom: 10px;
+}
+
+#formContainerRegistro .form-control{
+    border: none;
+    border-bottom: 2px solid #ccc;
+}
+
+#formContainerRegistro .form-control:focus{
+    box-shadow: none;
+}
+
+#formContainerRegistro input[type="submit"],
+#formContainerRegistro input[type="checkbox"]:checked {
+    background-color: aqua;
+    border-color: aqua;
+    color: #222;
+}
+
+#linkContainerRegistro{
+    text-align: left;
+    padding-top: 11px;
+    font-size: 16px;
+}
